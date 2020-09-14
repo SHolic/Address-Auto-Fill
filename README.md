@@ -6,6 +6,9 @@
 - 地址数据标准化阶段，NER结束后可以使用本模块进行地址的补全
 
 # 2. 用法
+
+下载网盘数据，地址`sources`数据放根目录下
+
 把`sources`文件夹和`addr_aito_fill.py`文件移至工作目录，具体用法见`demo.py`。
 ```python
 from addr_auto_fill import AddressAutoFill
